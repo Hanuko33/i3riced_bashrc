@@ -21,4 +21,4 @@ export EDITOR="vim"
 export PS1='\[\033[1;36m\][\[\033[1;34m\]Arch\[\033[1;34m\]]\[\033[0;36m\] \u\[\033[1;37m\] \w\[\033[0;34m\] \A\[\033[1;35m\] -> \[\033[0m\]'
 
 #neofetch | lolcat
-#neofetch
+neofetch
