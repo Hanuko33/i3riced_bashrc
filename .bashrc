@@ -28,3 +28,10 @@ export PS1='\[\033[1;33m\] \[\W\]\[\033[1;36m\] -> \[\033[0m\]'
 # fastfetch
 pfetch
 # pfetch | lolcat
+
+function my_clear() {
+    clear
+    pfetch
+}
+
+bind -x '"\C-l": my_clear'
